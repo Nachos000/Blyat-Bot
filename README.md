@@ -1,7 +1,7 @@
 # Blyat-Bot1
 A Discord Bot that will delete insultings on your server
 
-## Basics for a discord Bot:
+## Basics for creating a discord Bot:
 ### Step One
 Go to the discord developers website
 https://discord.com/developers/applications
@@ -29,5 +29,14 @@ https://discord.com/oauth2/authorize?client_id=PUT-YOUR-SERVER-ID-HERE&scope=bot
 3.Choose a server you want to add your bot to
 ### Congratulations you have a bot on your server that can do:
 -Nothing
+
+### Step Five
+Now you can start coding:
+If you have NO idea how,here are some youtube tutorials:
+        If you want to watch on german:
+                https://www.youtube.com/watch?v=4TSBD53e5No&list=PLNmsVeXQZj7rI3usLYlWhsjdFJ-MER_pU (The Morpheus Tutorial)
+        Elif you want to watch on english:
+                https://www.youtube.com/watch?v=SPTfmiYiuok (freeCodeCamp.org)
+
 
 
