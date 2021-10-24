@@ -12,7 +12,9 @@ https://discord.com/developers/applications
 2.Name it 
 !!(important application != Bot)
 3.Click on bot
-4.Create new bot ( A new bot has appeared)
+4.Add new Bot ( A new bot has appeared)
+## Step Three
+# Give the Bot permissions
 
 
 
