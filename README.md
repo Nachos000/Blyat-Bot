@@ -38,5 +38,37 @@ If you have NO idea how,here are some youtube tutorials:
         Elif you want to watch on english:
                 https://www.youtube.com/watch?v=SPTfmiYiuok (freeCodeCamp.org)
 
+### Step Six (keep the bot running)
+Ok now you should have coded your bot, but when you leave your IDE he will probably stop running.This is the point where you can use the Web Framework Flask to keep your bot running.Open another file, name it keep_alive.py and copy paste this code:
+
+from flask import Flask
+from threading import Thread
+
+app = Flask('')
+
+@app.route('/')
+def home():
+    return "Hello. I am alive!"
+
+def run():
+  app.run(host='0.0.0.0',port=8080)
+
+def keep_alive():
+    t = Thread(target=run)
+    t.start()
+
+Also write this in your main.py file to "import" the server
+from keep_alive import keep_alive
+
+### Step Seven (Keep the bot running more than an hour)
+If you want that your bot runs more than an hour you can use the free website Uptime Robot. It will ping the webserver from the bot every five minutes.
+-open this Uptime Robot:https://uptimerobot.com/
+-logg in
+-click on Add new monitor 
+-for the monitor type select HTTP(s)
+-copy the URL from your IDE
+-click create Monitor
+
+### Your fcking done
 
 
