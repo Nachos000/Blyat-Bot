@@ -1,5 +1,13 @@
-# Blyat-Bot1
+# Blyat-Bot
 A Discord Bot that will delete insultings on your server
+I documented different steps off creating this bot:
+### Blyat-Bot 1
+Just a basic bot who can see if you insult someone so he can delete this message and write an nice answer in the chat
+But he cant recognize an insult if its not standing alone
+you asshole ==> not working
+ashole ==> not working
+youasshole ==> not working
+(and btw the list is not from me just somewhere from the internet, the later versions have better list ;) )
 
 ## Basics for creating a discord Bot:
 ### Step One
